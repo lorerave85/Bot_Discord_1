@@ -19,4 +19,4 @@ RUN wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz \
 
 COPY . /home
 
-CMD ["python", "one.py"]
+CMD ["python3", "/home/one.py"]
