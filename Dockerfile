@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-RUN apt update && apt -y install gcc wget build-essential software-properties-common python3-pip
+RUN apt update && apt -y install gcc wget build-essential python3-pip
 
 RUN pip install yfinance==0.1.44
 
